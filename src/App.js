@@ -30,8 +30,7 @@ function XDictionary() {
         onChange={e => setSearchTerm(e.target.value)} 
       />
       <button onClick={handleSearch}>Search</button>
-      <p><strong>Definition:</strong></p>
-      <p>{result}</p>
+      <p><strong>Definition:</strong><p>{result}</p></p>
     </div>
   );
 }
